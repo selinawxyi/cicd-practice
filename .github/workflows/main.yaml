@@ -14,3 +14,6 @@ jobs:
 
       - name: Say hello
         run: echo "Hello from CI!"
+
+      - name: Build Docker image
+        run: docker build -t nginx .
